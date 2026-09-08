@@ -88,6 +88,10 @@
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
+**Core CS Fundamentals**
+![DSA](https://img.shields.io/badge/-Data%20Structures%20%26%20Algorithms-6E4C13?style=flat-square&logo=leetcode&logoColor=white)
+![OOP](https://img.shields.io/badge/-OOP-5C2D91?style=flat-square&logo=codeigniter&logoColor=white)
+
 **AI/ML & Data Engineering**
 ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
