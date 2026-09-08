@@ -15,16 +15,16 @@
 ### 🚀 About Me
 
 - 🎓 Pursuing **M.Sc. (Information Technology)** at **Dhirubhai Ambani University (DA-IICT)**, CPI: 8.03
-- 🔬 Currently working as a **Research Intern — Speech & Audio AI** at DA-IICT, reproducing and analyzing perceptual audio quality metrics
+- 🔬 Worked as a **Research Intern — Speech & Audio AI** at DA-IICT (May–July 2026), reproducing and analyzing perceptual audio quality metrics
 - 🧠 Core focus: **AI/ML & Data Engineering** — data pipelines, ETL, embeddings, model evaluation
 - 🛠️ Comfortable across the stack too — backend APIs, cloud deployment, and full-stack projects
 - 📊 Love turning raw, messy data into clean, structured, decision-ready pipelines
 
 ---
 
-### 🔭 Currently Working On
+### 🔬 Research Experience
 
-**Research Intern — Speech & Audio AI**, DA-IICT (Supervisor: Dr. Shruti Bhilare) — *June 2026–Present*
+**Research Intern — Speech & Audio AI**, DA-IICT (Supervisor: Dr. Shruti Bhilare) — *May 2026 – July 2026*
 - Reproduced **NOMAD (ICASSP 2024)**, a perceptual audio quality metric, on 2,620 test files — rebuilt the paper's fairseq pipeline using HuggingFace Transformers (wav2vec 2.0) for Python 3.12 compatibility
 - Built a data pipeline across 3 datasets (Librispeech, TSP, MS-SNSD) with format conversion, batch embedding extraction & automated scoring
 - Migrated inference from CPU → Kaggle T4 GPU, cutting runtime from 12 hours to 30 minutes (**95% faster**)
