@@ -2,7 +2,7 @@
 <h3 align="center">AI/ML & Data Engineer | Building data pipelines, ML systems & intelligent apps</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Speech+%26+Audio+AI+Research+Intern+%40+DA-IICT;Data+Pipelines+%7C+ETL+%7C+ML+Systems;Turning+messy+data+into+usable+insights;Always+exploring+new+tech+stacks" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=AI+Engineer+Intern+%40+DA-IICT+(Speech+%26+Audio+AI);Data+Pipelines+%7C+ETL+%7C+ML+Systems;Turning+messy+data+into+usable+insights;Always+exploring+new+tech+stacks" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -15,20 +15,19 @@
 ### 🚀 About Me
 
 - 🎓 Pursuing **M.Sc. (Information Technology)** at **Dhirubhai Ambani University (DA-IICT)**, CPI: 8.03
-- 🔬 Worked as a **Research Intern — Speech & Audio AI** at DA-IICT (May–July 2026), reproducing and analyzing perceptual audio quality metrics
+- 🔬 Worked as an **AI Engineer Intern — Speech & Audio AI** at DA-IICT (May–July 2026), building a no-reference audio quality predictor
 - 🧠 Core focus: **AI/ML & Data Engineering** — data pipelines, ETL, embeddings, model evaluation
 - 🛠️ Comfortable across the stack too — backend APIs, cloud deployment, and full-stack projects
 - 📊 Love turning raw, messy data into clean, structured, decision-ready pipelines
 
 ---
 
-### 🔬 Research Experience
+### 🔬 Experience
 
-**Research Intern — Speech & Audio AI**, DA-IICT (Supervisor: Dr. Shruti Bhilare) — *May 2026 – July 2026*
-- Reproduced **NOMAD (ICASSP 2024)**, a perceptual audio quality metric, on 2,620 test files — rebuilt the paper's fairseq pipeline using HuggingFace Transformers (wav2vec 2.0) for Python 3.12 compatibility
-- Built a data pipeline across 3 datasets (Librispeech, TSP, MS-SNSD) with format conversion, batch embedding extraction & automated scoring
-- Migrated inference from CPU → Kaggle T4 GPU, cutting runtime from 12 hours to 30 minutes (**95% faster**)
-- Ran an original speaker-level variance analysis, surfacing a previously unreported limitation of the metric
+**AI Engineer Intern — Speech & Audio AI**, DA-IICT — *May 2026 – July 2026*
+- Extended **NOMAD (ICASSP 2024)** into a no-reference MOS predictor by training a lightweight MLP regression head on frozen wav2vec2 (768-dim) embeddings against human MOS labels — no clean reference signal needed at inference
+- Built the full pipeline: embedding extraction → PyTorch dataset (train/val/test splits) → MLP head (256/128/64→1) → early-stopping training loop → PCC/SRCC/RMSE evaluation → Streamlit demo
+- Cut inference runtime by **95%** by migrating to a Kaggle NVIDIA T4 GPU
 
 ---
 
@@ -36,6 +35,15 @@
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <b>🎬 NextFlick</b><br/>
+      <i>Python · FastAPI · Streamlit · Scikit-learn · Gemini API · MCP</i>
+      <ul>
+        <li>Full-stack Bollywood movie recommender (2,161 movies) with RAG-based semantic search — Gemini embeddings + TF-IDF fallback</li>
+        <li>5 FastAPI REST endpoints + an MCP server exposing 5 AI-agent-callable tools, enabling native Claude Desktop integration</li>
+        <li>End-to-end pipeline: data ingestion → embeddings → Streamlit UI → production-ready API with hybrid retrieval</li>
+      </ul>
+    </td>
     <td width="50%" valign="top">
       <b>🔄 Multi-Source ETL Pipeline</b><br/>
       <i>Python · Pandas · AWS S3 · APScheduler · Docker</i>
@@ -45,27 +53,9 @@
         <li>Automated + containerized with Docker</li>
       </ul>
     </td>
-    <td width="50%" valign="top">
-      <b>💰 FinanceBuddy</b><br/>
-      <i>Node.js · Firebase · Gemini API · React</i>
-      <ul>
-        <li>RAG-based Q&A system over personal finance data</li>
-        <li>Automated profit-tracking, cutting manual effort by 75%</li>
-        <li>Embedding + cosine-similarity retrieval pipeline</li>
-      </ul>
-    </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <b>🎬 Hybrid Movie Recommender System</b><br/>
-      <i>Python · Pandas · FastAPI · Scikit-learn</i>
-      <ul>
-        <li>Sentence-BERT embeddings for 4,800+ movies</li>
-        <li>From-scratch matrix factorization (NumPy) recommender</li>
-        <li>Evaluated via RMSE, Precision & Recall</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <b>🏆 Achievements</b>
       <ul>
         <li>AIR 46 — DA-IICT MSc IT Entrance 2025</li>
@@ -98,6 +88,12 @@
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/-NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
 ![Apache Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+
+**AI / LLM**
+![Gemini API](https://img.shields.io/badge/-Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![RAG](https://img.shields.io/badge/-RAG-4B8BBE?style=flat-square&logo=databricks&logoColor=white)
+![MCP](https://img.shields.io/badge/-MCP-000000?style=flat-square&logo=anthropic&logoColor=white)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 **Backend & APIs**
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
